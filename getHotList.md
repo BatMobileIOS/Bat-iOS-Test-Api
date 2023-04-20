@@ -14,14 +14,14 @@
 
 ```json
 {
-	"pageSize": Int, //一次要取得幾篇文章
-	"excludeArticleIds": [String] //上一次請求時得到的熱門文章id列表，在請求下一批熱門文章時用來排除已經查詢過的熱門文章。 ex.第一次請求時帶空陣列[]因為還沒有前一次的請求，Api回傳了"excludeArticleIds": ["a", "b", "c"]，第二次需要加載更多文章時需帶入"excludeArticleIds": ["a", "b", "c"]
+    "pageSize": Int, //一次要取得幾篇文章
+    "excludeArticleIds": [String] //上一次請求時得到的熱門文章id列表，在請求下一批熱門文章時用來排除已經查詢過的熱門文章。 ex.第一次請求時帶空陣列[]因為還沒有前一次的請求，Api回傳了"excludeArticleIds": ["a", "b", "c"]，第二次需要加載更多文章時需帶入"excludeArticleIds": ["a", "b", "c"]
 }
 
 //Example:
 {
-	"pageSize": 10,
-	"excludeArticleIds": []
+    "pageSize": 10,
+    "excludeArticleIds": []
 }
 ```
 
