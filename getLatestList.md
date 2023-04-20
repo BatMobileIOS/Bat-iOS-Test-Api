@@ -7,7 +7,7 @@
 <h2 id="request">Request</h2>
 
 *   method: Post
-*   host: https://forum-server.batmobile.com.tw
+*   host: https://forum-server.batmobile.com.tw/
 *   path: api/v1/article/getLatestList/all
 
 <h2 id="parameter">Parameter</h2>
@@ -21,7 +21,7 @@
 
 //Example: 請求第一頁時所戴的參數(以10篇文章為例)
 {
-	"page": 0,
+    "page": 0,
     "pageSize": 10,
     "lastId": ""
 }
