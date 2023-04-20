@@ -30,46 +30,46 @@
 ```json
 {
     "result": [
-		{
-			"title": String, //文章標題
-			"content": String, //文章內容
-			"createdAt": String, //發文時間
-			"authorAvatarUrl": String, //作者頭像
-			"authorAlias": String //作者名稱
-		}
-	],
-	"excludeArticleIds":[String] //下次請求時需排除的熱門文章id
+	{
+	    "title": String, //文章標題
+	    "content": String, //文章內容
+	    "createdAt": String, //發文時間
+	    "authorAvatarUrl": String, //作者頭像
+	    "authorAlias": String //作者名稱
+	}
+    ],
+    "excludeArticleIds":[String] //下次請求時需排除的熱門文章id
 }
 
 //Exapmle:
 {
-	"result": [
-		{
-			"title": "Anonymous test",
-			"content": "Tony Anonymous",
-			"createdAt": "2022-11-08T04:29:19.786Z",
-			"authorAvatarUrl": "https://foootball.cc/uploads/users/kU2jR5Dllh.png",
-			"authorAlias": "訪客1"
-		},
-		{
-			"title": "Anonymous test1",
-			"content": "Zoe Anonymous",
-			"createdAt": "2023-01-09T09:57:10.646Z",
-			"authorAvatarUrl": "1234",
-			"authorAlias": "訪客2"
-		},
-		{
-			"title": "Anonymous test2",
-			"content": "Kai Anonymous",
-			"createdAt": "2022-09-27T20:10:52.613Z",
-			"authorAvatarUrl": "https://i.imgur.com/draWwIB.jpg",
-			"authorAlias": "訪客"
-		}
-	],
-	"excludeArticleIds": [
-		"6369db1ffa1670066bee2bf3",
-		"63bbe43fae90601a9dd0c21e",
-		"63bbe4f6ae90601a9dd0c3ea"
-	]
+    "result": [
+	{
+	    "title": "Anonymous test",
+	    "content": "Tony Anonymous",
+	    "createdAt": "2022-11-08T04:29:19.786Z",
+	    "authorAvatarUrl": "https://foootball.cc/uploads/users/kU2jR5Dllh.png",
+	    "authorAlias": "訪客1"
+	},
+	{
+	    "title": "Anonymous test1",
+	    "content": "Zoe Anonymous",
+	    "createdAt": "2023-01-09T09:57:10.646Z",
+	    "authorAvatarUrl": "1234",
+	    "authorAlias": "訪客2"
+	},
+	{
+	    "title": "Anonymous test2",
+	    "content": "Kai Anonymous",
+	    "createdAt": "2022-09-27T20:10:52.613Z",
+	    "authorAvatarUrl": "https://i.imgur.com/draWwIB.jpg",
+	    "authorAlias": "訪客"
+	}
+    ],
+    "excludeArticleIds": [
+	    "6369db1ffa1670066bee2bf3",
+	    "63bbe43fae90601a9dd0c21e",
+	    "63bbe4f6ae90601a9dd0c3ea"
+    ]
 }
 ```
