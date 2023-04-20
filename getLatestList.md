@@ -33,11 +33,11 @@
 {
     "result": [ //回傳的文章列表
         {
-		  "title": String, //文章標題
-		  "content": String, //文章內容
-		  "createdAt": String, //發文時間
-		  "authorAvatarUrl": String, //作者頭像
-          "authorAlias": String //作者名稱
+	     "title": String, //文章標題
+	     "content": String, //文章內容
+	     "createdAt": String, //發文時間
+	     "authorAvatarUrl": String, //作者頭像
+             "authorAlias": String //作者名稱
         }
 	],
 	"lastId": String //下次請求其他分頁時需帶入請求中
