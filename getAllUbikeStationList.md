@@ -11,7 +11,7 @@
 <h2 id="response">Response</h2>
 
 ```json
-{
+[
     {
         "sno": String, //站點編號
         "sna": String, //站點名稱
@@ -32,7 +32,7 @@
         "infoTime": String, //微笑單車各場站來源資料更新時間
         "infoDate": String //微笑單車各場站來源資料更新時間
     }
-}
+]
 
 //Exapmle:
 [
